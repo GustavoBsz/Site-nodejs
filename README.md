@@ -8,7 +8,7 @@ Certifique-se de ter o Node.js instalado no seu sistema antes de prosseguir.
 ## Instalação
 
 1. Clone este repositório para o seu sistema local:
-2. git clone https://github.com/Reflexoz/Site-nodejs
+2. git clone https://github.com/GustavoBsz/Site-nodejs
 
 ## Navegue até a pasta do projeto:
 
