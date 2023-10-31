@@ -1,0 +1,23 @@
+{
+  "name": "mercadopagoIntegracao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "mercadopago": "^1.5.8",
+    "mysql2": "^3.6.2",
+    "uuid": "^8.3.2",
+    "v": "^0.3.0"
+  }
+}

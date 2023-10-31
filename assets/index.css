@@ -1,0 +1,280 @@
+@font-face {
+	font-family: 'Medio';
+	src: url('../assets/Fonts/IBMPlexMono-Medium.ttf');
+  }
+  
+  @font-face {
+	font-family: 'Fino';
+	src: url('../assets/Fonts/IBMPlexMono-Thin.ttf');
+  }
+  
+  @font-face {
+	font-family: 'Grosso';
+	src: url('../assets/Fonts/IBMPlexMono-Bold.ttf');
+  }
+  
+  @font-face {
+	font-family: 'Grossoi';
+	src: url('../assets/Fonts/IBMPlexMono-BoldItalic.ttf');
+  }
+  
+  @font-face {
+	font-family: 'Normal';
+	src: url('../assets/Fonts/IBMPlexMono-Regular.ttf');
+  }
+  
+  @font-face {
+	font-family: 'Light';
+	src: url('../assets/Fonts/IBMPlexMono-Light.ttf');}
+
+
+    body {
+        font-family: 'Normal';
+        margin: 0;
+        padding: 0;
+        font-size: 1.4vw;
+        font-family: Normal;
+        letter-spacing: 0.2vw;
+        background: black;
+        color: white;
+        overflow-x: hidden;
+        -webkit-touch-callout: none;  /* iPhone OS, Safari */
+        -webkit-user-select: none;    /* Chrome, Safari 3 */
+        -khtml-user-select: none;     /* Safari 2 */
+        -moz-user-select: none;       /* Firefox */
+        -ms-user-select: none;        /* IE10+ */
+        user-select: none; 
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    
+    header {
+        color: #fff;
+        text-align: center;
+        font-family: fino;
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 52vw;
+        border-bottom: solid 0.1vw white;
+    }
+    
+    header nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        width: 10vw;
+        padding: 1vw;
+        border-left: solid 0.1vw  white;
+        transition: letter-spacing 0.3s ease;
+        
+    }
+    
+    .header-text {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 7vw; /* Unidade de medida relativa 'vw' */
+        font-family: Grosso;
+        left: -90%;
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 1.1vw;
+        white-space: nowrap;
+        animation: moveLeft 100s linear infinite;
+    }
+    .subheader-text {
+        text-align: center;
+        margin-top: 20px;
+
+        font-size: 5vw; /* Unidade de medida relativa 'vw' */
+        font-family: Grosso;
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 1.1vw;
+        white-space: nowrap;
+        animation: moveRight 80s linear infinite;
+    }
+    .main-line {
+        display: block;
+        width: 102vw; /* Exemplo de largura em porcentagem */
+        height: 0.1vw;
+        background-color: #fff;
+        margin: 1vh auto;
+    }
+    .seg-line {
+        display: block;
+        width: 102vw; /* Exemplo de largura em porcentagem */
+        height: 0.1vw;
+        background-color: #fff;
+        margin: 1vh auto;
+    }
+    .logo-text {
+        text-align: center;
+        font-size: 0.98vw; /* Unidade de medida relativa 'vw' */
+        font-family: normal;
+        /* position: relative; */
+        text-transform: uppercase;
+        letter-spacing: 0.1vw;
+        margin: 0vw;
+    }
+    .ter-line {
+        display: block;
+        width: 102vw; /* Exemplo de largura em porcentagem */
+        height: 0.1vw;
+        background-color: #fff;
+        margin: 1vh auto;
+    }
+    header nav a:hover{
+        letter-spacing: 0.5vw;
+    }
+    .image-40{
+        width: 100%;
+    }
+
+    @keyframes moveLeft {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-630%);
+        }
+    }
+    @keyframes moveRight {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+    .container {
+        padding: 3vw;
+        margin-left: 5vw;
+    }
+
+
+    .container div {
+        font-size: 5vw; 
+    }
+
+    .container span {
+        font-size: 1.5vw;
+        font-weight: bold;
+        margin-left: -2.5vw;
+    }
+
+    @media screen and (max-width: 600px) {
+        .container div {
+            font-size: 8vw;
+        }
+
+        .container span {
+            font-size: 3vw;
+            margin-left: -0.5vw;
+        }
+    }
+
+    .login-area {
+        /*
+        text-align:
+        padding: 20px;
+        border-radius: 5px;
+        width: 300px; 
+        margin: 0 auto; 
+        */
+            /* text-align: center; */
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+            margin: 7vw 33vw;
+    }
+
+    .login-area input::placeholder {
+        color: #42413c; /* Define a cor para o texto de exemplo */
+        text-indent: 7px;
+    }
+
+    .login-area input[type="text"]:focus,
+    .login-area input[type="password"]:focus {
+        outline: none;
+    }
+
+    .login-area input[type="text"],
+    .login-area input[type="password"] {
+        font-family: "Medio";
+        height: 3.9vh;
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        width: 28vw;
+        text-indent: 5px;
+        background-color: transparent;
+        border: solid 3.9px white;
+        border-color: white;
+        border-radius: 3px;
+        transition: letter-spacing 0.3s ease;
+    }
+
+
+
+    .login-buttons {
+        text-align: center;
+        margin-left: 13vw;
+        display: flex; /* Usar flexbox para os botões ficarem na mesma linha */
+        justify-content: center; /* Centralizar os botões horizontalmente */
+    }
+    
+    
+    .login-buttons input[type="submit"] {
+        margin: 0 10px; /* Espaçamento entre os botões */
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 10px 7vw; /* Tamanho dos botões */
+        border-left: 3px solid white; /* Estilo da borda esquerda */
+        transition: letter-spacing 0.3s ease;
+        cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+        outline: none; /* Remove a borda ao clicar no botão */
+        text-align: center; /* Centraliza o texto horizontalmente */
+        
+    }
+
+    .login-area input[type="submit"][name="acao"] {
+        font-family: "Medio";
+        font-size: 12.9px;
+        /* width: 49px; */
+        /* padding: 0 4vw; */
+        height: 40px;
+        border-radius: 3px;
+        color: #fff;
+        border: solid 3.9px white;
+        border-color: white;
+        background-color: transparent;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    .login-area input[type="submit"][name="registrar"] {
+        /* padding: 0 9vw; */
+        font-family: "Medio";
+        font-size: 12.9px;
+        color: #42413c;
+        height: 40px; /* Altura desejada para o botão "Entrar" */
+        border-radius: 3px;
+        background: #fff;
+        border: solid 3.9px white;
+        border-color: white;
+
+    }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site</title>
+  <link href="../assets/index.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <!-- Gambiarra finge que não existe -->
+    <form id="login-form" method="post" action="/login" style="display: none;">
+      <input type="text" name="login" />
+      <input type="password" name="password" />
+    </form>
+
+    <form id="register-form" method="post" action="/comecar" style="display: none;">
+      <input type="text" name="login" />
+      <input type="password" name="password" />
+    </form>
+    <!-- Gambiarra finge que não existe -->
+
+    <nav>
+      <a href="#">DÚVIDAS</a>
+      <a href="#">CONTATO</a>
+      <a href="#" onclick="document.getElementById('login-form').submit();">ENTRAR</a>
+      <a href="#" onclick="document.getElementById('register-form').submit();"
+        style="background: white;color: black;">COMEÇAR</a>
+    </nav>
+  </header>
+  <div class="header-text">Aqui está o início! Sua marca, nosso design! O design que define a sua marca. A imagem da sua
+    marca começa aqui.</div>
+  <div class="main-line"></div>
+  <div class="logo-text">Logos • Logos • Logos • Logos • Logos • Logos • Logos • Logos • Logos • Logos • Logos • Logos •
+    Logos • Logos • Logos • Logos • Logos • Logos </div>
+  <div class="seg-line"></div>
+  <div class="subheader-text">Dê início à jornada! Sua marca, nossa expertise em design! O design que molda a identidade
+    da sua marca. A construção da imagem da sua marca começa neste momento.</div>
+  <div class="ter-line"></div>
+  <img
+    src="https://cdn.discordapp.com/attachments/1154734043519275108/1163331197028544552/img.png?ex=653f2f9b&amp;is=652cba9b&amp;hm=b7b4dbbd52f5e25f2a24b3731dc46a35069e92e740a3b61d5e1930b88600d65a&amp;"
+    loading="lazy" alt="" class="image-40">
+
+  <img
+    src="https://cdn.discordapp.com/attachments/1154734043519275108/1163333301973557319/img2.png?ex=653f3190&amp;is=652cbc90&amp;hm=2141c95c67a350168d3b0a17343e1920d811a1cebe322c996d9992dd0f5dd435&amp;"
+    loading="lazy" alt="" class="image-40" id="nextImage">
+
+    <img
+    src="https://cdn.discordapp.com/attachments/1154734043519275108/1163333301973557319/img2.png?ex=653f3190&amp;is=652cbc90&amp;hm=2141c95c67a350168d3b0a17343e1920d811a1cebe322c996d9992dd0f5dd435&amp;"
+    loading="lazy" alt="" class="image-40" id="nextImage2">
+
+  <!-- Links -->  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../assets/index.js" type="text/javascript"></script>
+
+
+
+
+</body>
+
+</html>
