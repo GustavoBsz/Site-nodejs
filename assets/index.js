@@ -9,12 +9,11 @@ $(document).ready(function() {
   function getAccountInfo() {
     $.post('/getAccounts', function(data) {
       if (data.success) {
-        // Atualize as informações no frontend
         $('#NomeDeUsuario').text(data.user.NomeDeUsuario);
         $('#EmailDoUsuario').text(data.user.EmailDoUsuario);
         $('#Plano').text(data.user.Plano);
       } else {
-        // Lidar com erros, se necessário
+
         console.error('Erro ao buscar informações do usuário:', data.message);
       }
     });
@@ -24,7 +23,7 @@ $(document).ready(function() {
   var currentStep = 1;
 
    $(document).on('wheel', function(event) {
-    event.preventDefault(); // Impedir o comportamento padrão de rolagem
+    event.preventDefault();
 
       if (event.originalEvent.deltaY > 0) {
         // Rolar para baixo
@@ -53,7 +52,7 @@ $(document).ready(function() {
       $.ajax({
         url: 'http://localhost:8080/get-license',
         type: 'POST',
-        data: { nome: nome }, // Envie o nome como dados
+        data: { nome: nome }, 
         success: function(response) {
           console.log(JSON.stringify(response));
           if (response.success) {
