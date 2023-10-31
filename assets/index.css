@@ -78,7 +78,7 @@
     .header-text {
         text-align: center;
         margin-top: 20px;
-        font-size: 7vw; /* Unidade de medida relativa 'vw' */
+        font-size: 7vw;
         font-family: Grosso;
         left: -90%;
         position: relative;
@@ -91,7 +91,7 @@
         text-align: center;
         margin-top: 20px;
 
-        font-size: 5vw; /* Unidade de medida relativa 'vw' */
+        font-size: 5vw;
         font-family: Grosso;
         position: relative;
         text-transform: uppercase;
@@ -101,21 +101,21 @@
     }
     .main-line {
         display: block;
-        width: 102vw; /* Exemplo de largura em porcentagem */
+        width: 102vw;
         height: 0.1vw;
         background-color: #fff;
         margin: 1vh auto;
     }
     .seg-line {
         display: block;
-        width: 102vw; /* Exemplo de largura em porcentagem */
+        width: 102vw; 
         height: 0.1vw;
         background-color: #fff;
         margin: 1vh auto;
     }
     .logo-text {
         text-align: center;
-        font-size: 0.98vw; /* Unidade de medida relativa 'vw' */
+        font-size: 0.98vw; 
         font-family: normal;
         /* position: relative; */
         text-transform: uppercase;
@@ -124,7 +124,7 @@
     }
     .ter-line {
         display: block;
-        width: 102vw; /* Exemplo de largura em porcentagem */
+        width: 102vw; 
         height: 0.1vw;
         background-color: #fff;
         margin: 1vh auto;
@@ -195,7 +195,7 @@
     }
 
     .login-area input::placeholder {
-        color: #42413c; /* Define a cor para o texto de exemplo */
+        color: #42413c; 
         text-indent: 7px;
     }
 
@@ -228,22 +228,22 @@
     .login-buttons {
         text-align: center;
         margin-left: 13vw;
-        display: flex; /* Usar flexbox para os botões ficarem na mesma linha */
-        justify-content: center; /* Centralizar os botões horizontalmente */
+        display: flex;
+        justify-content: center;
     }
     
     
     .login-buttons input[type="submit"] {
-        margin: 0 10px; /* Espaçamento entre os botões */
+        margin: 0 10px;
         text-decoration: none;
         color: black;
         font-weight: bold;
-        padding: 10px 7vw; /* Tamanho dos botões */
-        border-left: 3px solid white; /* Estilo da borda esquerda */
+        padding: 10px 7vw;
+        border-left: 3px solid white; 
         transition: letter-spacing 0.3s ease;
-        cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
-        outline: none; /* Remove a borda ao clicar no botão */
-        text-align: center; /* Centraliza o texto horizontalmente */
+        cursor: pointer; 
+        outline: none;
+        text-align: center;
         
     }
 
@@ -271,7 +271,7 @@
         font-family: "Medio";
         font-size: 12.9px;
         color: #42413c;
-        height: 40px; /* Altura desejada para o botão "Entrar" */
+        height: 40px;
         border-radius: 3px;
         background: #fff;
         border: solid 3.9px white;
